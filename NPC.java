@@ -1,4 +1,4 @@
-mport java.util.Scanner;//importing for user input
+import java.util.Scanner;//importing for user input
 /*
 This class was made for Lunara. Lunara is an NPC servant.
 She provides the important game instructions and talk with the player.

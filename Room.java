@@ -82,7 +82,7 @@ public class Room {
             npc.talk();
         }
         else{
-            System.out.println("There is no one in the room to talk to. Unless, you liek tlaking to yourslef or soemthing");
+            System.out.println("There is no one in the room to talk to. Unless, you like talking to yourself or something");
         }
     }
 
@@ -242,8 +242,8 @@ public class Room {
             i += "\n";
         }
 
-        if (hasQueen) i += " \nQueen Vespera is here! You Dead bud. You Dead!\n";
-        if (hasClown) i += " \nGrinsorrow the Clown is here! Pray you make it out Alive!\n";
+        if (hasQueen) i += " \nQueen Vespera is here! You will be stuck in the evil kingdom forever working here as a servant\n";
+        if (hasClown) i += " \nGrinsorrow the Clown is here! BE careful with him\n";
         if (hasWitch) i += " \nWitch Nyxeira is here! THIS IS YOUR CHANCE! ESCAPE!\n";
 
         if(hasPurpleDiamond){

@@ -98,7 +98,7 @@ public class Player{
     //shows the inventory to user
     public void showInventory(){
         if(inventory.isEmpty()){
-            System.out.println("YOUR INVENTORY IS EMPTY> GO OPEN YOU EYE> LOOK AND GRAB THE ITEMS. DO YOU WANNA DIE OR SOMETHING??");
+            System.out.println("YOUR INVENTORY IS EMPTY> GO OPEN YOU EYE> LOOK AND GRAB THE ITEMS. ");
         }
         else{
             System.out.println("Looks like you have: ");
@@ -151,7 +151,7 @@ public class Player{
                 if(!playerNumber.equals("1") && !playerNumber.equals("2") &&
                         !playerNumber.equals("3") && !playerNumber.equals("4") &&
                         !playerNumber.equals("5") && !playerNumber.equals("6")){
-                    System.out.println("oh "+ name+" I warned you and you still tried to eb sneaky. I warned you though. YOU DIE");
+                    System.out.println("oh "+ name+" I warned you and you still tried to be sneaky. Oh you little human, prepare to be trappe din here for the rest of your life");
                     isAlive=false;
                     died();
                     return;
@@ -161,20 +161,20 @@ public class Player{
                 //same numbers=death different numbers=user get spellbook
                 if(playerNumber.equals(clownNum)){
                     System.out.println("Grinsorrow: HAHAHHA! Oh how unfortunate. Looks like I also choose the number " + clownNum + " too!");
-                    System.out.println("Grinsorrow: Now you DIE!");
+                    System.out.println("Grinsorrow: Now it looks like you will be stuck in here forever");
                     isAlive = false;
                     died();
                 }
                 else{
                     System.out.println("Grinsorrow: Oh god no! I chose " + clownNum + ". I lost! No! Well you got lucky "+ name);
-                    System.out.println("Grinsorrow Fine, take the spellbook. Lets see if you last any longer");
+                    System.out.println("Grinsorrow Fine, take the spellbook. Lets see if you will even escape from this kingdom. Don't worry. Vespara will find you.");
                     System.out.println("");
                     System.out.println("Write the words 'take spellbook' to get take the spellbook(this way u can give the witch the spellbook)");
                 }
             }
             else{
                     //if the user gets the riddle wrong
-                    System.out.println("Grinsorrow: Oh how unfortunate! Looks like you chose the wrong answer. HAHAH Now you DIE!");
+                    System.out.println("Grinsorrow: Oh how unfortunate! Looks like you chose the wrong answer. HAHAH now you will be stuck in the Kingdom forever hahahha");
                     isAlive = false;
                     died();
             }
@@ -243,7 +243,7 @@ public class Player{
             }
         } else {
             //if user says they don't wanna escape
-            System.out.println("Witch Nyxeira: Very well, stay here and perish then! If you get killed by Grinsorrow or Vespara , don't say that I didn't warn you and didn't give you a chance");
+            System.out.println("Witch Nyxeira: Very well, stay here and perish then! If Queen Vespara finds you, don't say that I didn't warn you and didn't give you a chance");
         }
     }
 
@@ -341,7 +341,7 @@ public class Player{
     //MADE FOR WHEN THE USER DIES
     public void died(){
         System.out.println();
-        System.out.println("YOU HAVE DIED. UNFORTUNATLY, YOU WERE NOT ABLE TO ABLE TO MAKE IT ALIVE");
+        System.out.println("YOU HAVE BEEN CAUGHT> YOU HAVE LOST> NOW YOU WILL BE WORKING HERE AS A SERVANT FOR THE REST OF YOUR LIFE");
         System.out.println();
         System.out.println("----------------GAME OVER----------------");
 
